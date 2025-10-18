@@ -1,5 +1,5 @@
 import { RegularTask } from "../task";
-import { Session, User } from "@entities";
+import { Session, User } from "@/entities/user";
 
 export type RegularUser = Pick<
   User,

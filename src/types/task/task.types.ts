@@ -1,4 +1,4 @@
-import { Task, TaskPriority, TaskStatus } from "@entities";
+import { Task, TaskPriority, TaskStatus } from "@/entities/task";
 
 export type RegularTask = Pick<
   Task,
